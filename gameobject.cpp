@@ -25,11 +25,11 @@ float GameObject::getCoordY() {
 }
 
 float GameObject::getVelocityX() {
-    return cos(angle * M_PI / 180) * velocity;
+    return cos(angle * pi / 180) * velocity;
 }
 
 float GameObject::getVelocityY() {
-    return -sin(angle * M_PI / 180) * velocity;
+    return -sin(angle * pi / 180) * velocity;
 }
 
 void GameObject::setAngle(float a) {

@@ -2,7 +2,10 @@
 #define GAMEOBJECT_H
 
 #include <QImage>
-#include <math.h>
+#define _USE_MATH_DEFINES
+#include <cmath>
+
+const double pi = 3.14159265;
 
 class GameObject
 {

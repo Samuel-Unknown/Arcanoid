@@ -2,7 +2,7 @@
 
 Ball::Ball()
 {
-    img.load("images/ball.png");
+    img = QImage(":images/ball.png");
 
     width = img.width();
     height = img.height();
@@ -12,5 +12,5 @@ Ball::Ball()
 
     velocity = 3;
     angle = 90;
-    acceleration = 0.1;
+    acceleration = 0.1f;
 }

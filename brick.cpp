@@ -2,7 +2,7 @@
 
 Brick::Brick()
 {
-    img.load("images/brick_1.png");
+    img = QImage(":images/brick.png");
 
     width = img.width();
     height = img.height();

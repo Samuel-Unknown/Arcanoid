@@ -2,7 +2,7 @@
 
 Screen::Screen()
 {
-    img.load("images/screen.png");
+    img = QImage(":images/screen.png");
 
     coordX =0;
     coordY = 0;

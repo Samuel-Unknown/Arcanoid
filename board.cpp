@@ -2,7 +2,7 @@
 
 Board::Board()
 {
-    img.load("images/board.png");
+    img = QImage(":images/board.png");
 
     width = img.width();
     height = img.height();

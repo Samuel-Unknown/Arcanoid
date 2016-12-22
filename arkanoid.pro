@@ -28,3 +28,6 @@ HEADERS  += mainwindow.h \
     brick.h
 
 FORMS    += mainwindow.ui
+
+RESOURCES += \
+    resources.qrc
